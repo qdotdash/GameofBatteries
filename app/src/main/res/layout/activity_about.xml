@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#1d1d1d"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".about">
+    <RelativeLayout
+        android:background="#2b2b2b"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@mipmap/ic_launcher"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/walkaway_bold"
+                    android:layout_height="wrap_content"
+                    android:text="Developed by Akshay Ravindran"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/walkaway_bold"
+                    android:text="Govt. Engg College Thrissur"/>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_weight="0.5"
+        android:background="#2b2b2b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+        <TextView
+            android:background="#4e4e4e"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/vtw"
+            android:text="Libraries"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColorLink="#6396ae"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:autoLink="web"
+            android:text="https://github.com/michaldrabik/TapBarMenu\n\nhttps://github.com/jjoe64/GraphView"
+            />
+   </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:background="#2b2b2b"
+        android:layout_weight="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/license"
+            android:background="#4e4e4e"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/vtw"
+            android:text="License"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:autoLink="web"
+            android:textStyle="bold"
+            android:textColorLink="#6396ae"
+            android:text="http://www.apache.org/licenses/LICENSE-2.0"
+             />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transitionbuttonclick1"
+    android:layout_height="match_parent"
+    tools:context=".Statistics">
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_weight="0.4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:background="@color/transitionbuttonclick2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="0.5"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+         <RelativeLayout
+             android:layout_weight="0.5"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+            <TextView
+            android:id="@+id/bestgraph"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:fontFamily="@font/walkaway_bold"
+            android:textColor="@android:color/black"
+            android:textSize="37sp"
+            />
+         </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/averagescore"
+            android:gravity="center|top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:fontFamily="@font/walkaway_bold"
+            android:textColor="@android:color/black"
+            android:textSize="80sp"
+            />
+        </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

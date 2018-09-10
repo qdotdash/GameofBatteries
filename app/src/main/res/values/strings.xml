@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GameofBatteries</string>
+
+
+    <string name="slide_1_title">We monitor your usage</string>
+    <string name="slide_1_desc">and display your battery dissipation rate</string>
+
+    <string name="slide_2_title">Integrated feed backs</string>
+    <string name="slide_2_desc">on your usage rate</string>
+
+    <string name="slide_3_title">Amazing Statistics</string>
+    <string name="slide_3_desc">to analyse your usage habits</string>
+
+    <string name="slide_4_title">Battery life remaining</string>
+    <string name="slide_4_desc">as notification which changes color according to your usage</string>
+    <string name="options">Options</string>
+    <string name="next">Next</string>
+    <string name="close">Close</string>
+    <string name="play_pause_intro">Add text</string>
+    <string name="about">ABOUT</string>
+    <string name="how_to_play_text">\nWe calculate your usage rate and display it at the end of a usage cycle that is, when you plug in your device.\n\nLive | Battery life remaining | will be shown through notifications. \n\nAll Notifications will be in stealth mode. \n\nNow you can leave the app and use the device, we will notify you when the rate appears.</string>
+</resources>

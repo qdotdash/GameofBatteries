@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4d0e40</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#9a9e9d</color>
+    <color name="gotitcolor">#ffffff</color>
+    <color name="buttoncolor">#a9aaab</color>
+    <color name="textcolorsc">#000000</color>
+
+    <color name="buttoncolor1">#4d0e40</color>
+    <color name="buttoncolor2">#e3524f</color>
+
+    <color name="scorestextcolor1">#414141</color>
+    <color name="scorestextcolor2">#ededed</color>
+    <color name="besttextcolor1">#1c4069</color>
+    <color name="besttextcolor2">#f2ce16</color>
+
+
+    <color name="transitionbuttonclick1">#a3a4a4</color>
+    <color name="transitionbuttonclick2">#414141</color>
+
+
+
+    <color name="colorSlide_1">#ffffff</color>
+    <color name="colorSlide_2">#ffffff</color>
+    <color name="colorSlide_3">#ffffff</color>
+    <color name="colorSlide_4">#ffffff</color>
+
+    <color name="orange">#ffa20d</color>
+    <color name="welcomebar">#d9d9d9</color>
+
+    <color name="titlewelcometext">#000000</color>
+    <color name="subtitlewelcometext">#454545</color>
+
+    <color name="white">#ffffff</color>
+    <color name="bluelight">#49acd5</color>
+    <color name="bluedark">#2f333f</color>
+    <color name="green">#45bc62</color>
+    <color name="orange1">#eaad43</color>
+    <color name="shimmercolor">#609c8d</color>
+
+    <color name="graph">#636363</color>
+
+
+
+
+
+
+</resources>
